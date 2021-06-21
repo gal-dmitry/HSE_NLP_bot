@@ -54,6 +54,6 @@ Talker - класс, отвечающий за определенную тему
 
 ### **Screenshots**
 
-![](C:\Users\ilya2\Desktop\bot_teenage.jpg)
+![](https://habrastorage.org/webt/3m/ca/f-/3mcaf-tog2-exv11-ejrlrmhjm8.jpeg)
 
 
