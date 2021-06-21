@@ -172,13 +172,23 @@ class Bot:
         # print(intentions)
 
         # проверка на "экстренное прерывание"
-        if ('alert' in intentions) or ('bye' in intentions):
+        if ('alert' in intentions):
             # стереть всю историю сообщений
             self.buff.reset()
             # замолчать
             # print('пройдено')
             self.bot.send_message(message.from_user.id, 'молчу')
             return
+        
+        # проверка на конец общения; отличие от alert:
+        # выводится красивое сообщение
+        if ('bye' in intentions):
+            # стереть всю историю сообщений
+            self.buff.reset()
+            mesg = self.talkers['bye'].choose_phrase()
+            self.bot.send_message(message.from_user.id, mesg)
+            return
+        
 
         # если нет истории сообщений с пользователем
         if self.buff.is_empty:

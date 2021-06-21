@@ -54,4 +54,17 @@ Talker - класс, отвечающий за определенную тему
 
 ### **Screenshots**
 
-- to add
+Бот в стиле teenage:
+
+![](https://habrastorage.org/webt/3m/ca/f-/3mcaf-tog2-exv11-ejrlrmhjm8.jpeg)
+
+Бот в стиле stalker:
+
+![](https://habrastorage.org/webt/pv/nn/cz/pvnnczrgpglkxo4pv1arpfb3dqk.jpeg)
+
+Бот в стиле servant:
+
+![](https://habrastorage.org/webt/cr/wt/0i/crwt0ikcadtp4jh4qhymnt9wxio.jpeg)
+
+
+
