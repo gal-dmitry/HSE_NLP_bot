@@ -54,4 +54,6 @@ Talker - класс, отвечающий за определенную тему
 
 ### **Screenshots**
 
-- to add
+![](C:\Users\ilya2\Desktop\bot_teenage.jpg)
+
+
